@@ -1,6 +1,6 @@
 <template>
 
-  <form @submit.prevent="handleSubmit()" class="row justify-content-end">
+  <form @submit.prevent="handleSubmit()" class="row justify-content-between">
     <div class="mb-3 col-3">
       <label for="" class="form-label">Make</label>
       <input type="text" class="form-control" v-model="editable.make" name="" id="" aria-describedby="helpId"
